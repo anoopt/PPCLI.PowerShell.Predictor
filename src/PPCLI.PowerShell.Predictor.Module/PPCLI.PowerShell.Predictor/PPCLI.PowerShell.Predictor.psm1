@@ -32,6 +32,14 @@ elseif ($psReadlineModule -eq $null) {
 
 # Import the predictor module
 if ($shouldImportPredictor) {
-    Import-Module (Join-Path -Path $PSScriptRoot -ChildPath PPCLI.PowerShell.Predictor.dll);
-    Write-Warning "Make sure you have Power Platform CLI installed for the cmdlets to work.";
+    try{
+        Import-Module (Join-Path -Path $PSScriptRoot -ChildPath PPCLI.PowerShell.Predictor.dll);
+        Write-Host "Module imported" -ForegroundColor Green
+        Write-Warning "Make sure you have Power Platform CLI installed for the cmdlets to work. If you have installed it already then ignore this warning.";
+    }
+    catch {
+        Write-Error "An error occurred while importing the module. Details:"
+        Write-Error $_
+    }
+    
 }
