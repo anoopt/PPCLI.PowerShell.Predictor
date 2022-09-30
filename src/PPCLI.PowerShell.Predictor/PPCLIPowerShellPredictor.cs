@@ -16,12 +16,12 @@ namespace PPCLI.PowerShell.Predictor
         /// <summary>
         /// Gets the name of a subsystem implementation.
         /// </summary>
-        public string Name => "PPCLI Predictor";
+        public string Name => "Power Platform";
 
         /// <summary>
         /// Gets the description of a subsystem implementation.
         /// </summary>
-        public string Description => "PPCLI PowerShell predictor";
+        public string Description => "Power Platform CLI PowerShell predictor";
 
         private IPPCLIPowerShellPredictorService _PPCLIPowerShellPredictorService;
 

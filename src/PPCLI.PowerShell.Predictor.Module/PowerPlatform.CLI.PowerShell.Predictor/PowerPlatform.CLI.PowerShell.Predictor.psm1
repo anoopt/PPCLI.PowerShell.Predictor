@@ -30,12 +30,11 @@ elseif ($psReadlineModule -eq $null) {
     }
 }
 
-$currentErrorActionPreference =  $ErrorActionPreference;
-$ErrorActionPreference = 'SilentlyContinue'
-$ppcliInstalled = pac
-$ErrorActionPreference = $currentErrorActionPreference;
 
-if($null -eq $ppcliInstalled) {
+try {
+    $ppcliInstalled = pac
+}
+catch {
     $shouldImportPredictor = $false
     throw "Make sure you have Power Platform CLI installed for the cmdlets to work."
 }
