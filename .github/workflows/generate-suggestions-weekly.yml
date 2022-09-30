@@ -1,0 +1,22 @@
+name: Generate suggestions JSON file weekly
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: '0 1 * * 0'
+
+jobs:
+  executescript:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: main
+      - name: Run script to generate suggestions JSON file 
+        run: |
+          ./resources/Generate-Predictions.ps1
+      - name: Add & Commit
+        uses: EndBug/add-and-commit@v6
+        with:
+          message: 'Weekly suggestions generation'
+          branch: main

@@ -26,16 +26,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="PPCLI.PowerShell.Predictor\" />
-    <Folder Include="PPCLI.PowerShell.Predictor\Data" />
+    <Folder Include="PowerPlatform.CLI.PowerShell.Predictor\" />
+    <Folder Include="PowerPlatform.CLI.PowerShell.Predictor\Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PPCLI.PowerShell.Predictor\PPCLI.PowerShell.Predictor.psd1" />
-    <Compile Include="PPCLI.PowerShell.Predictor\PPCLI.PowerShell.Predictor.psm1" />
+    <Compile Include="PowerPlatform.CLI.PowerShell.Predictor\PowerPlatform.CLI.PowerShell.Predictor.psd1" />
+    <Compile Include="PowerPlatform.CLI.PowerShell.Predictor\PowerPlatform.CLI.PowerShell.Predictor.psm1" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="PPCLI.PowerShell.Predictor\Data\PPCLI.PowerShell.Suggestions.json" />
-    <Content Include="PPCLI.PowerShell.Predictor\PPCLI.PowerShell.Predictor.dll" />
+    <Content Include="PowerPlatform.CLI.PowerShell.Predictor\Data\PowerPlatform.CLI.PowerShell.Suggestions.json" />
+    <Content Include="PowerPlatform.CLI.PowerShell.Predictor\PPCLI.PowerShell.Predictor.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />

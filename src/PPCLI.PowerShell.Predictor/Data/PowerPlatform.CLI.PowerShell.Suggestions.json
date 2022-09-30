@@ -1,0 +1,290 @@
+{
+  "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
+  "LastUpdatedOn": "30 September 2022",
+  "Suggestions": [
+    {
+      "Command": "pac admin assign-user --environment 00000000-0000-0000-0000-000000000000 --user \"user@company.com\" --role \"Basic User\"",
+      "Rank": 1
+    },
+    {
+      "Command": "pac admin assign-user --environment 00000000-0000-0000-0000-000000000000 --user 00000000-0000-0000-0000-000000000000 --role \"System Administrator\"",
+      "Rank": 2
+    },
+    {
+      "Command": "pac admin backup",
+      "Rank": 1
+    },
+    {
+      "Command": "pac admin copy",
+      "Rank": 1
+    },
+    {
+      "Command": "pac admin create",
+      "Rank": 1
+    },
+    {
+      "Command": "pac admin delete",
+      "Rank": 1
+    },
+    {
+      "Command": "pac admin list-app-templates",
+      "Rank": 1
+    },
+    {
+      "Command": "pac admin list-backups",
+      "Rank": 1
+    },
+    {
+      "Command": "pac admin list",
+      "Rank": 1
+    },
+    {
+      "Command": "pac admin reset",
+      "Rank": 1
+    },
+    {
+      "Command": "pac admin restore",
+      "Rank": 1
+    },
+    {
+      "Command": "pac application install --environment-id 00000000-0000-0000-0000-000000000000 --application-name MSFT_EmployeeIdeas",
+      "Rank": 1
+    },
+    {
+      "Command": "pac application install --environment-id 00000000-0000-0000-0000-000000000000 --application-list c:\\home\\applicationslist.json",
+      "Rank": 2
+    },
+    {
+      "Command": "pac application list --environment-id 00000000-0000-0000-0000-000000000000",
+      "Rank": 1
+    },
+    {
+      "Command": "pac application list --output c:\\home\\applicationslist.json",
+      "Rank": 2
+    },
+    {
+      "Command": "pac auth create --url https://myorg.crm.dynamics.com",
+      "Rank": 1
+    },
+    {
+      "Command": "pac auth create --url https://myorg.crm.dynamics.com --name MyOrg",
+      "Rank": 2
+    },
+    {
+      "Command": "pac auth create --url https://myorg.crm.dynamics.com --name MyOrg-SPN --applicationId 00000000-0000-0000-0000-000000000000 --clientSecret $clientSecret --tenant 00000000-0000-0000-0000-000000000000",
+      "Rank": 3
+    },
+    {
+      "Command": "pac auth delete --index 2",
+      "Rank": 1
+    },
+    {
+      "Command": "pac auth name",
+      "Rank": 1
+    },
+    {
+      "Command": "pac auth select --index 2",
+      "Rank": 1
+    },
+    {
+      "Command": "pac auth update",
+      "Rank": 1
+    },
+    {
+      "Command": "pac canvas create --msapp HelloWorld.msapp --connector-display-name \"My Custom Connector\"",
+      "Rank": 1
+    },
+    {
+      "Command": "pac canvas pack --sources MyHelloWorldFiles --msapp HelloWorld.msapp",
+      "Rank": 1
+    },
+    {
+      "Command": "pac canvas unpack --msapp HelloWorld.msapp --sources MyHelloWorldFiles",
+      "Rank": 1
+    },
+    {
+      "Command": "pac canvas unpack --msapp HelloWorld.msapp",
+      "Rank": 2
+    },
+    {
+      "Command": "pac connector create",
+      "Rank": 1
+    },
+    {
+      "Command": "pac connector download",
+      "Rank": 1
+    },
+    {
+      "Command": "pac connector init",
+      "Rank": 1
+    },
+    {
+      "Command": "pac connector list",
+      "Rank": 1
+    },
+    {
+      "Command": "pac connector update",
+      "Rank": 1
+    },
+    {
+      "Command": "pac data export",
+      "Rank": 1
+    },
+    {
+      "Command": "pac data import",
+      "Rank": 1
+    },
+    {
+      "Command": "pac org list",
+      "Rank": 1
+    },
+    {
+      "Command": "pac org select",
+      "Rank": 1
+    },
+    {
+      "Command": "pac package add-external-package",
+      "Rank": 1
+    },
+    {
+      "Command": "pac package add-reference --path c:\\Users\\Downloads\\SampleSolution",
+      "Rank": 1
+    },
+    {
+      "Command": "pac package add-solution",
+      "Rank": 1
+    },
+    {
+      "Command": "pac package deploy --logFile c:\\samplelogdata --package c:\\samplepackage",
+      "Rank": 1
+    },
+    {
+      "Command": "pac package init --outputdirectory c:\\samplepackage",
+      "Rank": 1
+    },
+    {
+      "Command": "pac package show c:\\samplepackage.dll",
+      "Rank": 1
+    },
+    {
+      "Command": "pac paportal download --path \"C:\\portals\" --webSiteId f88b70cc-580b-4f1a-87c3-41debefeb902",
+      "Rank": 1
+    },
+    {
+      "Command": "pac paportal upload --path \"C:\\portals\\starter-portal\"",
+      "Rank": 1
+    },
+    {
+      "Command": "pac pcf init --namespace SampleNameSpace --name SampleComponent --template field",
+      "Rank": 1
+    },
+    {
+      "Command": "pac pcf push --publisher-prefix dev",
+      "Rank": 1
+    },
+    {
+      "Command": "pac pcf version --patchversion 1.0.0.0 --path c:\\Users\\Downloads\\SampleComponent --allmanifests",
+      "Rank": 1
+    },
+    {
+      "Command": "pac pcf version --strategy gittags",
+      "Rank": 2
+    },
+    {
+      "Command": "pac plugin init",
+      "Rank": 1
+    },
+    {
+      "Command": "pac plugin push",
+      "Rank": 1
+    },
+    {
+      "Command": "pac solution add-license",
+      "Rank": 1
+    },
+    {
+      "Command": "pac solution add-reference --path c:\\Users\\Downloads\\SampleComponent",
+      "Rank": 1
+    },
+    {
+      "Command": "pac solution add-solution-component",
+      "Rank": 1
+    },
+    {
+      "Command": "pac solution check --path c:\\Users\\Documents\\Solution.zip --outputDirectory c:\\samplepackage --geo UnitedStates",
+      "Rank": 1
+    },
+    {
+      "Command": "pac solution clone --name sampleSolution",
+      "Rank": 1
+    },
+    {
+      "Command": "pac solution clone --name sampleSolution --include general,autonumbering",
+      "Rank": 2
+    },
+    {
+      "Command": "pac solution clone --name sampleSolution --processCanvasApps",
+      "Rank": 3
+    },
+    {
+      "Command": "pac solution create-settings --solution-zip C:\\SampleSolution.zip --settings-file .\\SampleDeploymentSettingsDev.json",
+      "Rank": 1
+    },
+    {
+      "Command": "pac solution delete --solution-name Samplesolution",
+      "Rank": 1
+    },
+    {
+      "Command": "pac solution export --path c:\\Users\\Documents\\Solution.zip --name SampleComponentSolution --managed true --include general",
+      "Rank": 1
+    },
+    {
+      "Command": "pac solution import --path c:\\Users\\Documents\\Solution.zip",
+      "Rank": 1
+    },
+    {
+      "Command": "pac solution init --publisher-name developer --publisher-prefix dev",
+      "Rank": 1
+    },
+    {
+      "Command": "pac solution list",
+      "Rank": 1
+    },
+    {
+      "Command": "pac solution online-version --solution-name Samplesolution --solution-version 1.0.0.2",
+      "Rank": 1
+    },
+    {
+      "Command": "pac solution pack --zipfile C:\\SampleSolution.zip --folder .\\SampleSolutionUnpacked\\.",
+      "Rank": 1
+    },
+    {
+      "Command": "pac solution publish",
+      "Rank": 1
+    },
+    {
+      "Command": "pac solution sync",
+      "Rank": 1
+    },
+    {
+      "Command": "pac solution sync --processCanvasApps",
+      "Rank": 2
+    },
+    {
+      "Command": "pac solution unpack --zipfile C:\\SampleSolution.zip --folder .\\SampleSolutionUnpacked\\.",
+      "Rank": 1
+    },
+    {
+      "Command": "pac solution upgrade --solution-name SampleSolution --async --max-async-wait-time 60",
+      "Rank": 1
+    },
+    {
+      "Command": "pac solution version --patchversion 2",
+      "Rank": 1
+    },
+    {
+      "Command": "pac solution version --strategy gittags",
+      "Rank": 2
+    }
+  ]
+}
