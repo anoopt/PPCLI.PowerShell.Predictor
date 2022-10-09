@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "02 October 2022",
+  "LastUpdatedOn": "09 October 2022",
   "Suggestions": [
     {
       "Rank": 1,
@@ -136,7 +136,7 @@
     },
     {
       "Rank": 1,
-      "Command": "pac org list"
+      "Command": "pac org list --filter myorg"
     },
     {
       "Rank": 1,
