@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "09 October 2022",
+  "LastUpdatedOn": "16 October 2022",
   "Suggestions": [
     {
       "Rank": 1,
@@ -172,6 +172,10 @@
     },
     {
       "Rank": 1,
+      "Command": "pac paportal list"
+    },
+    {
+      "Rank": 1,
       "Command": "pac paportal upload --path \"C:\\portals\\starter-portal\""
     },
     {
@@ -285,6 +289,18 @@
     {
       "Rank": 2,
       "Command": "pac solution version --strategy gittags"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac tool cmt"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac tool pd"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac tool prt"
     }
   ]
 }
