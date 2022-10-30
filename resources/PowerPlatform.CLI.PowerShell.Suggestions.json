@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "23 October 2022",
+  "LastUpdatedOn": "30 October 2022",
   "Suggestions": [
     {
       "Rank": 1,
@@ -8,23 +8,39 @@
     },
     {
       "Rank": 2,
-      "Command": "pac admin assign-user --environment 00000000-0000-0000-0000-000000000000 --user 00000000-0000-0000-0000-000000000000 --role \"System Administrator\""
+      "Command": "pac admin assign-user --environment 00000000-0000-0000-0000-000000000000 --user 00000000-0000-0000-0000-000000000000 --business-unit00000000-0000-0000-0000-000000000000 --role \"System Administrator\""
+    },
+    {
+      "Rank": 3,
+      "Command": "pac admin assign-user --environment 00000000-0000-0000-0000-000000000000 --user 00000000-0000-0000-0000-000000000000 --role \"System Administrator\" --application-user"
     },
     {
       "Rank": 1,
-      "Command": "pac admin backup"
+      "Command": "pac admin backup --environment 00000000-0000-0000-0000-000000000000 --label \"Manual Backup October 2022\""
     },
     {
       "Rank": 1,
-      "Command": "pac admin copy"
+      "Command": "pac admin copy --name \"Environment Name\" --source-env 00000000-0000-0000-0000-000000000000 --target-env 00000000-0000-0000-0000-000000000000 --type MinimalCopy"
+    },
+    {
+      "Rank": 2,
+      "Command": "pac admin copy --name \"Environment Name\" --source-env 00000000-0000-0000-0000-000000000000 --target-env 00000000-0000-0000-0000-000000000000 --type FullCopy"
     },
     {
       "Rank": 1,
-      "Command": "pac admin create"
+      "Command": "pac admin create --name \"Contoso Test\" --type Sandbox --domain ContosoTest"
+    },
+    {
+      "Rank": 2,
+      "Command": "pac admin create --name \"Contoso Marketing\" --currency EUR --region europe --type Production --domain ContosoMarketing"
     },
     {
       "Rank": 1,
-      "Command": "pac admin delete"
+      "Command": "pac admin delete --environment 00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "Rank": 2,
+      "Command": "pac admin delete --environment https://contosomarketing.crm4.dynamics.com"
     },
     {
       "Rank": 1,
