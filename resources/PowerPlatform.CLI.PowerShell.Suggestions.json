@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "13 November 2022",
+  "LastUpdatedOn": "20 November 2022",
   "Suggestions": [
     {
       "Rank": 1,
@@ -184,6 +184,10 @@
     },
     {
       "Rank": 1,
+      "Command": "pac modelbuilder build"
+    },
+    {
+      "Rank": 1,
       "Command": "pac org list --filter myorg"
     },
     {
@@ -341,6 +345,10 @@
     {
       "Rank": 1,
       "Command": "pac tool cmt"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac tool list"
     },
     {
       "Rank": 1,
