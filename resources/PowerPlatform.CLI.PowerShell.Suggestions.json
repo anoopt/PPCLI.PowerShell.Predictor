@@ -1,7 +1,11 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "11 December 2022",
+  "LastUpdatedOn": "18 December 2022",
   "Suggestions": [
+    {
+      "Rank": 1,
+      "Command": "pac admin assign-group"
+    },
     {
       "Rank": 1,
       "Command": "pac admin assign-user --environment 00000000-0000-0000-0000-000000000000 --user \"user@company.com\" --role \"Basic User\""
@@ -100,7 +104,7 @@
     },
     {
       "Rank": 2,
-      "Command": "pac admin restore --selected-backup 12/01/2022 09:00 --source-env 00000000-0000-0000-0000-000000000000"
+      "Command": "pac admin restore --selected-backup '12/01/2022 09:00' --source-env 00000000-0000-0000-0000-000000000000"
     },
     {
       "Rank": 1,
@@ -292,6 +296,14 @@
     },
     {
       "Rank": 1,
+      "Command": "pac pipeline deploy"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac pipeline list"
+    },
+    {
+      "Rank": 1,
       "Command": "pac plugin init"
     },
     {
@@ -401,6 +413,10 @@
     {
       "Rank": 1,
       "Command": "pac tool prt"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac virtual-agent list"
     }
   ]
 }
