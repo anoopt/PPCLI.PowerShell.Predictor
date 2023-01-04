@@ -2,7 +2,7 @@
 
 ## Overview
 
-[Power Platform CLI PowerShell Predictor](https://www.powershellgallery.com/packages/PPCLI.PowerShell.Predictor) is a PowerShell
+[Power Platform CLI PowerShell Predictor](https://www.powershellgallery.com/packages/PowerPlatform.CLI.PowerShell.Predictor/) is a PowerShell
 module that helps you navigate the cmdlets and parameters of
 [Power Platform CLI](https://learn.microsoft.com/en-us/power-platform/developer/cli/introduction) in PowerShell. It provides suggestions for command completion when using Power Platform CLI cmdlets in PowerShell.
 
@@ -45,10 +45,10 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 
 ### Install Power Platform CLI PowerShell Predictor
 
-To install the PPCLI.PowerShell.Predictor PowerShell module run the following
+To install the PowerPlatform.CLI.PowerShell.Predictor PowerShell module run the following
 
 ```powershell
-Install-Module -Name PPCLI.PowerShell.Predictor
+Install-Module -Name PowerPlatform.CLI.PowerShell.Predictor
 ```
 
 ### Import Power Platform CLI PowerShell Predictor
@@ -56,7 +56,7 @@ Install-Module -Name PPCLI.PowerShell.Predictor
 To import the Power Platform CLI PowerShell Predictor PowerShell module in the current session run the following
 
 ```powershell
-Import-Module -Name PPCLI.PowerShell.Predictor
+Import-Module -Name PowerPlatform.CLI.PowerShell.Predictor
 ```
 
 ### Use Power Platform CLI PowerShell Predictor
@@ -66,7 +66,7 @@ Once imported, start typing Power Platform CLI cmdlet (e.g. `pac admin...`) and 
 ## Uninstallation
 
 Once installed and enabled, Power Platform CLI PowerShell Predictor is loaded in the PowerShell profile.
-To uninstall the PPCLI.PowerShell.Predictor module:
+To uninstall the PowerPlatform.CLI.PowerShell.Predictor module:
 
 1. Close **all** PowerShell sessions including VS Code.
 
@@ -79,7 +79,7 @@ To uninstall the PPCLI.PowerShell.Predictor module:
 1. Uninstall Power Platform CLI PowerShell Predictor
 
    ```powershell
-   Uninstall-Module -Name PPCLI.PowerShell.Predictor -Force
+   Uninstall-Module -Name PowerPlatform.CLI.PowerShell.Predictor -Force
    ```
 
 1. Close PowerShell
