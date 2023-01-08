@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "01 January 2023",
+  "LastUpdatedOn": "08 January 2023",
   "Suggestions": [
     {
       "Rank": 1,
@@ -140,7 +140,7 @@
     },
     {
       "Rank": 1,
-      "Command": "pac auth name"
+      "Command": "pac auth name --index 1 --name \"Contoso Dev\""
     },
     {
       "Rank": 1,
@@ -148,7 +148,11 @@
     },
     {
       "Rank": 1,
-      "Command": "pac auth update"
+      "Command": "pac auth update --index 1 --name \"Contoso Dev\" --environment \"https://contosodev.crm.dynamics.com\""
+    },
+    {
+      "Rank": 2,
+      "Command": "pac auth update --index 1 --environment 00000000-0000-0000-0000-000000000000"
     },
     {
       "Rank": 1,
@@ -240,7 +244,11 @@
     },
     {
       "Rank": 1,
-      "Command": "pac org select"
+      "Command": "pac org select --environment \"https://contosotest.crm.dynamics.com\""
+    },
+    {
+      "Rank": 2,
+      "Command": "pac org select --environment 00000000-0000-0000-0000-000000000000"
     },
     {
       "Rank": 1,
@@ -312,7 +320,7 @@
     },
     {
       "Rank": 1,
-      "Command": "pac solution add-license"
+      "Command": "pac solution add-license --planDefinitionFile ../ISV_Plan_Definition.csv --planMappingFile ../ISV_Plan_Mapping.csv"
     },
     {
       "Rank": 1,
@@ -320,7 +328,7 @@
     },
     {
       "Rank": 1,
-      "Command": "pac solution add-solution-component"
+      "Command": "pac solution add-solution-component --solutionUniqueName SampleSolution --component contact --componentType 1"
     },
     {
       "Rank": 1,
