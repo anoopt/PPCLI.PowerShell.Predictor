@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "12 March 2023",
+  "LastUpdatedOn": "19 March 2023",
   "Suggestions": [
     {
       "Rank": 1,
@@ -240,6 +240,10 @@
     },
     {
       "Rank": 1,
+      "Command": "pac org fetch"
+    },
+    {
+      "Rank": 1,
       "Command": "pac org list --filter myorg"
     },
     {
@@ -425,6 +429,10 @@
     {
       "Rank": 1,
       "Command": "pac virtual-agent list"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac virtual-agent status"
     }
   ]
 }
