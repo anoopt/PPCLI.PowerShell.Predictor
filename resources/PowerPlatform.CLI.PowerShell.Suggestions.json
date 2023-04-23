@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "16 April 2023",
+  "LastUpdatedOn": "23 April 2023",
   "Suggestions": [
     {
       "Rank": 1,
@@ -173,6 +173,26 @@
     {
       "Rank": 2,
       "Command": "pac canvas unpack --msapp HelloWorld.msapp"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac catalog create-submission"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac catalog install"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac catalog list"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac catalog status"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac catalog submit"
     },
     {
       "Rank": 1,
