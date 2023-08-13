@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "06 August 2023",
+  "LastUpdatedOn": "13 August 2023",
   "Suggestions": [
     {
       "Rank": 1,
@@ -37,6 +37,10 @@
     {
       "Rank": 2,
       "Command": "pac admin create --name \"Contoso Marketing\" --currency EUR --region europe --type Production --domain ContosoMarketing"
+    },
+    {
+      "Rank": 3,
+      "Command": "pac admin create --input-file C:\\config.json"
     },
     {
       "Rank": 1,
