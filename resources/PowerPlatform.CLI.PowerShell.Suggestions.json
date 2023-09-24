@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "17 September 2023",
+  "LastUpdatedOn": "24 September 2023",
   "Suggestions": [
     {
       "Rank": 1,
@@ -108,6 +108,10 @@
     },
     {
       "Rank": 1,
+      "Command": "pac admin list-tenant-settings"
+    },
+    {
+      "Rank": 1,
       "Command": "pac admin reset --environment 00000000-0000-0000-0000-000000000000"
     },
     {
@@ -129,6 +133,10 @@
     {
       "Rank": 1,
       "Command": "pac admin set-governance-config"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac admin update-tenant-settings"
     },
     {
       "Rank": 1,
@@ -221,6 +229,22 @@
     {
       "Rank": 1,
       "Command": "pac catalog update"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac connection create"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac connection delete"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac connection list"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac connection update"
     },
     {
       "Rank": 1,
@@ -332,22 +356,6 @@
     },
     {
       "Rank": 1,
-      "Command": "pac paportal bootstrap-migrate"
-    },
-    {
-      "Rank": 1,
-      "Command": "pac paportal download --path \"C:\\portals\" --webSiteId f88b70cc-580b-4f1a-87c3-41debefeb902"
-    },
-    {
-      "Rank": 1,
-      "Command": "pac paportal list"
-    },
-    {
-      "Rank": 1,
-      "Command": "pac paportal upload --path \"C:\\portals\\starter-portal\""
-    },
-    {
-      "Rank": 1,
       "Command": "pac pcf init --namespace SampleNameSpace --name SampleComponent --template field"
     },
     {
@@ -377,6 +385,22 @@
     {
       "Rank": 1,
       "Command": "pac plugin push"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac powerpages bootstrap-migrate"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac powerpages download --path \"C:\\portals\" --webSiteId f88b70cc-580b-4f1a-87c3-41debefeb902"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac powerpages list"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac powerpages upload --path \"C:\\portals\\starter-portal\""
     },
     {
       "Rank": 1,
@@ -468,7 +492,7 @@
     },
     {
       "Rank": 1,
-      "Command": "pac tests run"
+      "Command": "pac test run"
     },
     {
       "Rank": 1,
