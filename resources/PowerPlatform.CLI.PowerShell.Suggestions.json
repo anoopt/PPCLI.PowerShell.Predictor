@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "21 January 2024",
+  "LastUpdatedOn": "28 January 2024",
   "Suggestions": [
     {
       "Rank": 1,
@@ -141,6 +141,10 @@
     {
       "Rank": 1,
       "Command": "pac admin set-governance-config"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac admin set-runtime-state"
     },
     {
       "Rank": 1,
@@ -308,7 +312,39 @@
     },
     {
       "Rank": 1,
+      "Command": "pac copilot create"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac copilot extract-template"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac copilot extract-translation"
+    },
+    {
+      "Rank": 1,
       "Command": "pac copilot list"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac copilot list"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac copilot merge-translation"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac copilot model list"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac copilot model predict"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac copilot model prepare-fetch"
     },
     {
       "Rank": 1,
@@ -317,6 +353,10 @@
     {
       "Rank": 1,
       "Command": "pac copilot prepare-fetch"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac copilot status"
     },
     {
       "Rank": 1,
@@ -357,6 +397,10 @@
     {
       "Rank": 1,
       "Command": "pac org update-settings"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac org who"
     },
     {
       "Rank": 1,
@@ -425,6 +469,10 @@
     {
       "Rank": 3,
       "Command": "PS C:\\test> pac auth select --index 2 New default profile: * UNIVERSAL ConnectionName https://yourcompany.crm.dynamics.com/ : you@yourcompany.com Public PS C:\\test>"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac power-fx repl"
     },
     {
       "Rank": 1,
@@ -568,6 +616,10 @@
     },
     {
       "Rank": 1,
+      "Command": "pac tool admin"
+    },
+    {
+      "Rank": 1,
       "Command": "pac tool cmt"
     },
     {
@@ -576,35 +628,15 @@
     },
     {
       "Rank": 1,
+      "Command": "pac tool maker"
+    },
+    {
+      "Rank": 1,
       "Command": "pac tool pd"
     },
     {
       "Rank": 1,
       "Command": "pac tool prt"
-    },
-    {
-      "Rank": 1,
-      "Command": "pac virtual-agent create"
-    },
-    {
-      "Rank": 1,
-      "Command": "pac virtual-agent extract-template"
-    },
-    {
-      "Rank": 1,
-      "Command": "pac virtual-agent extract-translation"
-    },
-    {
-      "Rank": 1,
-      "Command": "pac virtual-agent list"
-    },
-    {
-      "Rank": 1,
-      "Command": "pac virtual-agent merge-translation"
-    },
-    {
-      "Rank": 1,
-      "Command": "pac virtual-agent status"
     }
   ]
 }
