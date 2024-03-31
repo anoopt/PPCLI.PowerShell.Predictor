@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "24 March 2024",
+  "LastUpdatedOn": "31 March 2024",
   "Suggestions": [
     {
       "Command": "pac admin application register",
