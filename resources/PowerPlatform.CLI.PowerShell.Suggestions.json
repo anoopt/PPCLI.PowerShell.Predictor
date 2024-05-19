@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "12 May 2024",
+  "LastUpdatedOn": "19 May 2024",
   "Suggestions": [
     {
       "Command": "pac admin application register",
@@ -355,6 +355,10 @@
       "Rank": 1
     },
     {
+      "Command": "pac copilot publish",
+      "Rank": 1
+    },
+    {
       "Command": "pac copilot status --environment 2e250e7a-5607-4fea-aa4e-1aeb7bf79118 --bot-id 9ee3f7aa-ab79-4cf6-a726-d85c8c18cc3e",
       "Rank": 1
     },
@@ -367,40 +371,40 @@
       "Rank": 1
     },
     {
+      "Command": "pac env fetch",
+      "Rank": 1
+    },
+    {
+      "Command": "pac env list --filter myenv",
+      "Rank": 1
+    },
+    {
+      "Command": "pac env list-settings",
+      "Rank": 1
+    },
+    {
+      "Command": "pac env select --environment \"https://contosotest.crm.dynamics.com\"",
+      "Rank": 1
+    },
+    {
+      "Command": "pac env select --environment 00000000-0000-0000-0000-000000000000",
+      "Rank": 2
+    },
+    {
+      "Command": "pac env update-settings",
+      "Rank": 1
+    },
+    {
+      "Command": "pac env who",
+      "Rank": 1
+    },
+    {
       "Command": "pac modelbuilder build --entitynamesfilter 'account;contact' --generatesdkmessages --messagenamesfilter 'examp_*' --emitfieldsclasses --emitVirtualAttributes --namespace 'MyApps.Model' --outdirectory 'c:\\src\\MyApps\\Model' --writesettingsTemplateFile --serviceContextName 'OrgContext'",
       "Rank": 1
     },
     {
       "Command": "pac modelbuilder build --outdirectory c:\\src\\MyApps\\Model --settingsTemplateFile c:\\src\\MyApps\\Model\\builderSettings.json",
       "Rank": 2
-    },
-    {
-      "Command": "pac org fetch",
-      "Rank": 1
-    },
-    {
-      "Command": "pac org list --filter myorg",
-      "Rank": 1
-    },
-    {
-      "Command": "pac org list-settings",
-      "Rank": 1
-    },
-    {
-      "Command": "pac org select --environment \"https://contosotest.crm.dynamics.com\"",
-      "Rank": 1
-    },
-    {
-      "Command": "pac org select --environment 00000000-0000-0000-0000-000000000000",
-      "Rank": 2
-    },
-    {
-      "Command": "pac org update-settings",
-      "Rank": 1
-    },
-    {
-      "Command": "pac org who",
-      "Rank": 1
     },
     {
       "Command": "pac package add-external-package",
@@ -424,6 +428,26 @@
     },
     {
       "Command": "pac package show c:\\samplepackage.dll",
+      "Rank": 1
+    },
+    {
+      "Command": "pac pages bootstrap-migrate",
+      "Rank": 1
+    },
+    {
+      "Command": "pac pages download --path \"C:\\portals\" --webSiteId f88b70cc-580b-4f1a-87c3-41debefeb902",
+      "Rank": 1
+    },
+    {
+      "Command": "pac pages list",
+      "Rank": 1
+    },
+    {
+      "Command": "pac pages migrate-datamodel",
+      "Rank": 1
+    },
+    {
+      "Command": "pac pages upload --path \"C:\\portals\\starter-portal\"",
       "Rank": 1
     },
     {
@@ -493,22 +517,6 @@
     {
       "Command": "PS C:\\test> pac power-fx run --file test-pfx.txt --echo Set(x, 1) x: 1 true Result = If( Mid( \"asdf\",x,1 ) = \"a\", \"X\", \"Y\" ) Result: \"X\" PS C:\\test>",
       "Rank": 7
-    },
-    {
-      "Command": "pac powerpages bootstrap-migrate",
-      "Rank": 1
-    },
-    {
-      "Command": "pac powerpages download --path \"C:\\portals\" --webSiteId f88b70cc-580b-4f1a-87c3-41debefeb902",
-      "Rank": 1
-    },
-    {
-      "Command": "pac powerpages list",
-      "Rank": 1
-    },
-    {
-      "Command": "pac powerpages upload --path \"C:\\portals\\starter-portal\"",
-      "Rank": 1
     },
     {
       "Command": "pac solution add-license --planDefinitionFile ../ISV_Plan_Definition.csv --planMappingFile ../ISV_Plan_Mapping.csv",
