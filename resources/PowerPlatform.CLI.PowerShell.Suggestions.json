@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "07 July 2024",
+  "LastUpdatedOn": "14 July 2024",
   "Suggestions": [
     {
       "Command": "pac admin application register",
@@ -543,10 +543,6 @@
       "Rank": 2
     },
     {
-      "Command": "pac solution clone --name sampleSolution --processCanvasApps",
-      "Rank": 3
-    },
-    {
       "Command": "pac solution create-settings --solution-zip C:\\SampleSolution.zip --settings-file .\\SampleDeploymentSettingsDev.json",
       "Rank": 1
     },
@@ -585,10 +581,6 @@
     {
       "Command": "pac solution sync",
       "Rank": 1
-    },
-    {
-      "Command": "pac solution sync --processCanvasApps",
-      "Rank": 2
     },
     {
       "Command": "pac solution unpack --zipfile C:\\SampleSolution.zip --folder .\\SampleSolutionUnpacked\\.",
