@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "11 May 2025",
+  "LastUpdatedOn": "25 May 2025",
   "Suggestions": [
     {
       "Rank": 1,
@@ -276,6 +276,22 @@
     },
     {
       "Rank": 1,
+      "Command": "pac code add-data-source"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac code delete-data-source"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac code init"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac code run"
+    },
+    {
+      "Rank": 1,
       "Command": "pac connection create"
     },
     {
@@ -444,6 +460,10 @@
     },
     {
       "Rank": 1,
+      "Command": "pac pages download-code-site"
+    },
+    {
+      "Rank": 1,
       "Command": "pac pages download --path \"C:\\portals\" --webSiteId f88b70cc-580b-4f1a-87c3-41debefeb902 --modelVersion 2"
     },
     {
@@ -453,6 +473,10 @@
     {
       "Rank": 1,
       "Command": "pac pages migrate-datamodel"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac pages upload-code-site"
     },
     {
       "Rank": 1,
@@ -608,7 +632,7 @@
     },
     {
       "Rank": 1,
-      "Command": "pac test run"
+      "Command": "pac test run -p \"canvas\" -test \"testplan.te.yaml\" -t aaaabbbb-0000-cccc-1111-dddd2222eeee -env 00aa00aa-bb11-cc22-dd33-44ee44ee44ee"
     },
     {
       "Rank": 1,
