@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "20 July 2025",
+  "LastUpdatedOn": "27 July 2025",
   "Suggestions": [
     {
       "Command": "pac admin add-group",
