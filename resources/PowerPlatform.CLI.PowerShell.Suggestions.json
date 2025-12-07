@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "30 November 2025",
+  "LastUpdatedOn": "07 December 2025",
   "Suggestions": [
     {
       "Rank": 1,
@@ -384,6 +384,10 @@
     },
     {
       "Rank": 1,
+      "Command": "pac copilot mcp"
+    },
+    {
+      "Rank": 1,
       "Command": "pac copilot merge-translation --environment 2e250e7a-5607-4fea-aa4e-1aeb7bf79118 --file ms_store_newTestCopilot.de-DE.json --solution SolutionName"
     },
     {
@@ -441,6 +445,38 @@
     {
       "Rank": 1,
       "Command": "pac env who"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac managed-identity configure-fic"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac managed-identity create"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac managed-identity delete"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac managed-identity get"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac managed-identity show-fic"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac managed-identity update"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac managed-identity upgrade-version"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac managed-identity verify-fic"
     },
     {
       "Rank": 1,
