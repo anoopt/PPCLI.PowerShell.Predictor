@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "14 December 2025",
+  "LastUpdatedOn": "21 December 2025",
   "Suggestions": [
     {
       "Command": "pac admin add-group",
@@ -383,7 +383,7 @@
       "Rank": 1
     },
     {
-      "Command": "pac copilot mcp",
+      "Command": "pac copilot mcp --run",
       "Rank": 1
     },
     {
