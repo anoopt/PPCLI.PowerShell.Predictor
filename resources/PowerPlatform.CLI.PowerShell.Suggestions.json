@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "01 February 2026",
+  "LastUpdatedOn": "08 February 2026",
   "Suggestions": [
     {
       "Command": "pac admin add-group",
@@ -476,6 +476,30 @@
     },
     {
       "Command": "pac managed-identity verify-fic",
+      "Rank": 1
+    },
+    {
+      "Command": "pac model genpage download",
+      "Rank": 1
+    },
+    {
+      "Command": "pac model genpage generate-types",
+      "Rank": 1
+    },
+    {
+      "Command": "pac model genpage list",
+      "Rank": 1
+    },
+    {
+      "Command": "pac model genpage transpile",
+      "Rank": 1
+    },
+    {
+      "Command": "pac model genpage upload",
+      "Rank": 1
+    },
+    {
+      "Command": "pac model list",
       "Rank": 1
     },
     {
