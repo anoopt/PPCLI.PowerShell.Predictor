@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "22 February 2026",
+  "LastUpdatedOn": "01 March 2026",
   "Suggestions": [
     {
       "Rank": 1,
@@ -380,6 +380,10 @@
     },
     {
       "Rank": 1,
+      "Command": "pac copilot init-skills"
+    },
+    {
+      "Rank": 1,
       "Command": "pac copilot list --environment 2e250e7a-5607-4fea-aa4e-1aeb7bf79118"
     },
     {
@@ -501,6 +505,10 @@
     {
       "Rank": 1,
       "Command": "pac model list"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac model list-languages"
     },
     {
       "Rank": 1,
