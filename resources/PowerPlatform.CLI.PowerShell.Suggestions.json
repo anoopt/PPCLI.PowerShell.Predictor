@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "05 April 2026",
+  "LastUpdatedOn": "12 April 2026",
   "Suggestions": [
     {
       "Command": "pac admin add-group",
@@ -712,6 +712,10 @@
     },
     {
       "Command": "pac solution pack --zipfile C:\\SampleSolution.zip --folder .\\SampleSolutionUnpacked\\.",
+      "Rank": 1
+    },
+    {
+      "Command": "pac solution pack --zipfile C:\\output\\MySolution.zip --folder C:\\repos\\myrepo",
       "Rank": 1
     },
     {
