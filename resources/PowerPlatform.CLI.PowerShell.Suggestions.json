@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "03 May 2026",
+  "LastUpdatedOn": "10 May 2026",
   "Suggestions": [
     {
       "Command": "pac admin add-group",
@@ -423,7 +423,35 @@
       "Rank": 1
     },
     {
+      "Command": "pac copilot quarantine",
+      "Rank": 1
+    },
+    {
       "Command": "pac copilot status --environment 2e250e7a-5607-4fea-aa4e-1aeb7bf79118 --bot-id 9ee3f7aa-ab79-4cf6-a726-d85c8c18cc3e",
+      "Rank": 1
+    },
+    {
+      "Command": "pac data bulk-delete cancel",
+      "Rank": 1
+    },
+    {
+      "Command": "pac data bulk-delete list",
+      "Rank": 1
+    },
+    {
+      "Command": "pac data bulk-delete pause",
+      "Rank": 1
+    },
+    {
+      "Command": "pac data bulk-delete resume",
+      "Rank": 1
+    },
+    {
+      "Command": "pac data bulk-delete schedule",
+      "Rank": 1
+    },
+    {
+      "Command": "pac data bulk-delete show",
       "Rank": 1
     },
     {
@@ -432,6 +460,26 @@
     },
     {
       "Command": "pac data import",
+      "Rank": 1
+    },
+    {
+      "Command": "pac data retention enable-entity",
+      "Rank": 1
+    },
+    {
+      "Command": "pac data retention list",
+      "Rank": 1
+    },
+    {
+      "Command": "pac data retention set",
+      "Rank": 1
+    },
+    {
+      "Command": "pac data retention show",
+      "Rank": 1
+    },
+    {
+      "Command": "pac data retention status",
       "Rank": 1
     },
     {
@@ -524,6 +572,10 @@
     },
     {
       "Command": "pac model list-languages",
+      "Rank": 1
+    },
+    {
+      "Command": "pac model list-tables",
       "Rank": 1
     },
     {
