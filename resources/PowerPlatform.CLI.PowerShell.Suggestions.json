@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "31 May 2026",
+  "LastUpdatedOn": "07 June 2026",
   "Suggestions": [
     {
       "Command": "pac admin add-group",
@@ -379,7 +379,15 @@
       "Rank": 2
     },
     {
+      "Command": "pac copilot clone",
+      "Rank": 1
+    },
+    {
       "Command": "pac copilot create",
+      "Rank": 1
+    },
+    {
+      "Command": "pac copilot delete",
       "Rank": 1
     },
     {
@@ -388,6 +396,10 @@
     },
     {
       "Command": "pac copilot extract-translation --environment 2e250e7a-5607-4fea-aa4e-1aeb7bf79118 --bot 9ee3f7aa-ab79-4cf6-a726-d85c8c18cc3e --all --outdir . --format json",
+      "Rank": 1
+    },
+    {
+      "Command": "pac copilot init",
       "Rank": 1
     },
     {
@@ -419,7 +431,19 @@
       "Rank": 1
     },
     {
+      "Command": "pac copilot pack",
+      "Rank": 1
+    },
+    {
       "Command": "pac copilot publish",
+      "Rank": 1
+    },
+    {
+      "Command": "pac copilot pull",
+      "Rank": 1
+    },
+    {
+      "Command": "pac copilot push",
       "Rank": 1
     },
     {
