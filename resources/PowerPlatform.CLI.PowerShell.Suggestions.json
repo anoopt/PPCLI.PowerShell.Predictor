@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "26 July 2026",
+  "LastUpdatedOn": "02 August 2026",
   "Suggestions": [
     {
       "Command": "pac admin add-group",
@@ -600,6 +600,18 @@
     },
     {
       "Command": "pac model genpage generate-types",
+      "Rank": 1
+    },
+    {
+      "Command": "pac model genpage get-connector-schema",
+      "Rank": 1
+    },
+    {
+      "Command": "pac model genpage list-connector-operations",
+      "Rank": 1
+    },
+    {
+      "Command": "pac model genpage list-connector-tables",
       "Rank": 1
     },
     {
