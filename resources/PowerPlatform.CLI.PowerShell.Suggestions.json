@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "06 September 2026",
+  "LastUpdatedOn": "13 September 2026",
   "Suggestions": [
     {
       "Command": "pac admin add-group",
@@ -171,6 +171,46 @@
       "Rank": 1
     },
     {
+      "Command": "pac analytics execute-recommendation-action",
+      "Rank": 1
+    },
+    {
+      "Command": "pac analytics get-action-schema",
+      "Rank": 1
+    },
+    {
+      "Command": "pac analytics get-recommendation-resources",
+      "Rank": 1
+    },
+    {
+      "Command": "pac analytics get-recommendation-scenarios",
+      "Rank": 1
+    },
+    {
+      "Command": "pac analytics get-recommendations",
+      "Rank": 1
+    },
+    {
+      "Command": "pac analytics get-scenario-actions",
+      "Rank": 1
+    },
+    {
+      "Command": "pac app-management get-application-package-install-status",
+      "Rank": 1
+    },
+    {
+      "Command": "pac app-management get-environment-application-package",
+      "Rank": 1
+    },
+    {
+      "Command": "pac app-management get-tenant-application-package",
+      "Rank": 1
+    },
+    {
+      "Command": "pac app-management install-application-package",
+      "Rank": 1
+    },
+    {
       "Command": "pac application install --environment-id 00000000-0000-0000-0000-000000000000 --application-name MSFT_EmployeeIdeas",
       "Rank": 1
     },
@@ -233,6 +273,46 @@
     {
       "Command": "pac auth update --index 1 --environment 00000000-0000-0000-0000-000000000000",
       "Rank": 2
+    },
+    {
+      "Command": "pac authorization create-environment-group-role-assignment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac authorization create-environment-role-assignment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac authorization create-role-assignment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac authorization delete-environment-group-role-assignment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac authorization delete-environment-role-assignment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac authorization delete-role-assignment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac authorization list-environment-group-role-assignments",
+      "Rank": 1
+    },
+    {
+      "Command": "pac authorization list-environment-role-assignments",
+      "Rank": 1
+    },
+    {
+      "Command": "pac authorization list-role-assignments",
+      "Rank": 1
+    },
+    {
+      "Command": "pac authorization list-role-definitions",
+      "Rank": 1
     },
     {
       "Command": "pac canvas create --msapp HelloWorld.msapp --connector-display-name \"My Custom Connector\"",
@@ -340,6 +420,18 @@
     },
     {
       "Command": "pac connection update",
+      "Rank": 1
+    },
+    {
+      "Command": "pac connectivity get-connector-by-id",
+      "Rank": 1
+    },
+    {
+      "Command": "pac connectivity list-connections",
+      "Rank": 1
+    },
+    {
+      "Command": "pac connectivity list-connectors",
       "Rank": 1
     },
     {
@@ -475,6 +567,58 @@
       "Rank": 1
     },
     {
+      "Command": "pac copilot-studio delete-copilot-agent",
+      "Rank": 1
+    },
+    {
+      "Command": "pac copilot-studio download-agent-channel-manifest",
+      "Rank": 1
+    },
+    {
+      "Command": "pac copilot-studio get-bot-quarantine-status",
+      "Rank": 1
+    },
+    {
+      "Command": "pac copilot-studio get-connector-consent-bypass",
+      "Rank": 1
+    },
+    {
+      "Command": "pac copilot-studio get-maker-evaluation-test-run",
+      "Rank": 1
+    },
+    {
+      "Command": "pac copilot-studio get-maker-evaluation-test-set",
+      "Rank": 1
+    },
+    {
+      "Command": "pac copilot-studio list-maker-evaluation-test-runs",
+      "Rank": 1
+    },
+    {
+      "Command": "pac copilot-studio list-maker-evaluation-test-sets",
+      "Rank": 1
+    },
+    {
+      "Command": "pac copilot-studio reassign-copilot-agent",
+      "Rank": 1
+    },
+    {
+      "Command": "pac copilot-studio run-maker-evaluation-test-set",
+      "Rank": 1
+    },
+    {
+      "Command": "pac copilot-studio set-bot-as-quarantined",
+      "Rank": 1
+    },
+    {
+      "Command": "pac copilot-studio set-bot-as-unquarantined",
+      "Rank": 1
+    },
+    {
+      "Command": "pac copilot-studio set-connector-consent-bypass",
+      "Rank": 1
+    },
+    {
       "Command": "pac data bulk-delete cancel",
       "Rank": 1
     },
@@ -527,6 +671,34 @@
       "Rank": 1
     },
     {
+      "Command": "pac dynamics apply-fin-ops-version",
+      "Rank": 1
+    },
+    {
+      "Command": "pac dynamics get-fin-ops-maintenance-settings",
+      "Rank": 1
+    },
+    {
+      "Command": "pac dynamics get-fin-ops-operation-errors",
+      "Rank": 1
+    },
+    {
+      "Command": "pac dynamics get-fin-ops-properties",
+      "Rank": 1
+    },
+    {
+      "Command": "pac dynamics get-fin-ops-versions",
+      "Rank": 1
+    },
+    {
+      "Command": "pac dynamics update-fin-ops-maintenance-settings",
+      "Rank": 1
+    },
+    {
+      "Command": "pac env features list",
+      "Rank": 1
+    },
+    {
       "Command": "pac env fetch",
       "Rank": 1
     },
@@ -552,6 +724,422 @@
     },
     {
       "Command": "pac env who",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management add-environment-to-group",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management copy-environment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management create-environment-backup",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management create-environment-group",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management create-environment-management-settings",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management delete-environment-backup",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management delete-environment-by-id",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management delete-environment-group",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management disable-disaster-recovery",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management disable-managed-environment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management enable-disaster-recovery",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management enable-managed-environment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management get-business-continuity-state-full-snapshot",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management get-environment-backups",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management get-environment-by-id-for-user",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management get-environment-copy-candidates",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management get-environment-group",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management get-environment-group-operation",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management get-environment-operation-by-id",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management get-operation-by-id",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management get-operations-for-environment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management get-provisioning-currencies",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management get-provisioning-languages",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management get-provisioning-templates",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management get-restore-candidates",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management get-supported-locations",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management link-dataverse",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management list-environment-groups",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management list-environment-management-settings",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management list-environments-for-user",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management modify-environment-sku",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management perform-dr-drill",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management perform-failback",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management perform-force-failover",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management provision-new-environment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management recover-environment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management remove-environment-from-group",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management reset-environment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management restore-environment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management update-environment-group",
+      "Rank": 1
+    },
+    {
+      "Command": "pac environment-management update-environment-management-settings",
+      "Rank": 1
+    },
+    {
+      "Command": "pac governance create-enviornment-group-rule-based-assignment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac governance create-environment-rule-based-assignment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac governance create-rule-based-policy",
+      "Rank": 1
+    },
+    {
+      "Command": "pac governance create-rule-set",
+      "Rank": 1
+    },
+    {
+      "Command": "pac governance delete-rule-set",
+      "Rank": 1
+    },
+    {
+      "Command": "pac governance get-cross-tenant-connection-report",
+      "Rank": 1
+    },
+    {
+      "Command": "pac governance get-rule-based-policy-by-id",
+      "Rank": 1
+    },
+    {
+      "Command": "pac governance get-rule-set",
+      "Rank": 1
+    },
+    {
+      "Command": "pac governance get-rule-set-list-for-tenant",
+      "Rank": 1
+    },
+    {
+      "Command": "pac governance list-cross-tenant-connection-reports",
+      "Rank": 1
+    },
+    {
+      "Command": "pac governance list-rule-assignments-by-environment-group-id",
+      "Rank": 1
+    },
+    {
+      "Command": "pac governance list-rule-assignments-by-environment-id",
+      "Rank": 1
+    },
+    {
+      "Command": "pac governance list-rule-assignments-by-policy-id",
+      "Rank": 1
+    },
+    {
+      "Command": "pac governance list-rule-assignments",
+      "Rank": 1
+    },
+    {
+      "Command": "pac governance list-rule-based-policies",
+      "Rank": 1
+    },
+    {
+      "Command": "pac governance patch-rule-based-policy",
+      "Rank": 1
+    },
+    {
+      "Command": "pac governance remove-rule-from-rule-based-policy",
+      "Rank": 1
+    },
+    {
+      "Command": "pac governance update-rule-based-policy-by-id",
+      "Rank": 1
+    },
+    {
+      "Command": "pac governance update-rule-set",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing add-billing-policy-environment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing create-billing-policy",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing create-isv-contract",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing delete-billing-policy",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing delete-isv-contract",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-all-resource-thresholds",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-allocations-availability-v2",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-allocations-by-environment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-billing-policy-environment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-billing-policy",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-currency-allocation-by-environment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-entitlement",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-environment-billing-policy",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-environment-resources",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-isv-contract",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-many-entitlements-reserved-v2",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-many-environment-entitlements",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-storage-warning-by-category-and-entity",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-storage-warning-by-category",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-tenant-capacity-details",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-tenant-license-trends",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-tenant-resource-consumption-by-user",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-tenant-resources-across-environments",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-tenant-user-consumption-by-resource",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-tenant-users",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-user-per-flow-capacity-source-flow-context-summary-for-user-id",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-user-per-flow-capacity-source-flow-context-summary",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-user-per-flow-capacity-source",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-user-per-flow-capacity-source-tenant-context-summary",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-user-per-flow-capacity-source-user-context-summary-for-user-id",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing get-user-per-flow-capacity-source-user-context-summary",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing list-billing-policies",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing list-billing-policy-environments",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing list-currency-reports",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing list-isv-contracts",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing patch-currency-allocation-by-environment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing put-allocations-v2",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing refresh-provisioning-status",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing remove-billing-policy-environment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing retrieve-temporary-currency-entitlement-count",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing update-allocations-by-environment",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing update-billing-policy",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing update-isv-contract",
+      "Rank": 1
+    },
+    {
+      "Command": "pac licensing upsert-resource-threshold",
       "Rank": 1
     },
     {
@@ -663,6 +1251,14 @@
       "Rank": 1
     },
     {
+      "Command": "pac package compile",
+      "Rank": 1
+    },
+    {
+      "Command": "pac package db-sync",
+      "Rank": 1
+    },
+    {
       "Command": "pac package deploy --logFile c:\\samplelogdata --package c:\\samplepackage",
       "Rank": 1
     },
@@ -731,6 +1327,26 @@
       "Rank": 1
     },
     {
+      "Command": "pac power-apps get-admin-app",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-apps get-admin-apps",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-automate list-cloud-flows",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-automate list-flow-actions",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-automate list-flow-runs",
+      "Rank": 1
+    },
+    {
       "Command": "PS C:\\test> pac power-fx run --file test-pfx.txt Error 8-16: Name isn't valid. 'Contacts' isn't recognized. Error 18-59: The specified column 'firstname' does not exist. Error 0-60: The function 'Collect' has some invalid arguments. Error 8-16: Name isn't valid. 'Contacts' isn't recognized. Error 18-59: The specified column 'firstname' does not exist. Error 0-60: The function 'Collect' has some invalid arguments. Error 8-16: Name isn't valid. 'Contacts' isn't recognized. Error 18-59: The specified column 'firstname' does not exist. Error 0-60: The function 'Collect' has some invalid arguments. Error 8-16: Name isn't valid. 'Contacts' isn't recognized. Error 18-63: The specified column 'firstname' does not exist. Error 0-64: The function 'Collect' has some invalid arguments.",
       "Rank": 1
     },
@@ -773,6 +1389,170 @@
     {
       "Command": "PS C:\\test> pac power-fx run --file test-pfx.txt --echo Set(x, 1) x: 1 true Result = If( Mid( \"asdf\",x,1 ) = \"a\", \"X\", \"Y\" ) Result: \"X\" PS C:\\test>",
       "Rank": 7
+    },
+    {
+      "Command": "pac power-pages add-allowed-ip-addresses",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages add-ssl-binding-by-portal",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages convert-trial-to-production",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages create-custom-domain",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages create-waf-rules",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages create-website",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages delete-certificate-by-portal",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages delete-host-name-for-portal",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages delete-ssl-binding-by-thumbprint",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages delete-waf-custom-rules",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages delete-website",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages disable-waf",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages enable-waf",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages get-affected-sites",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages get-allowed-ip-addresses",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages get-certificates-by-portal",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages get-exceptions",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages get-security-scan-report",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages get-security-scan-score",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages get-waf-rules",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages get-waf-status",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages get-website-by-id",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages get-websites",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages grant-exception",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages list-host-names-for-portal",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages list-ssl-bindings-by-thumbprints",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages remove-allowed-ip-addresses",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages restart-website",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages revoke-exception",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages set-portal-bootstrap-v5-enabled",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages set-portal-data-model-version",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages start-deep-scan",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages start-quick-scan",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages start-website",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages stop-website",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages toggle-afd-traffic-routing",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages update-portal-security-group",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages update-site-visibility",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages update-waf-policy-settings",
+      "Rank": 1
+    },
+    {
+      "Command": "pac power-pages upload-certificate",
+      "Rank": 1
+    },
+    {
+      "Command": "pac resource-query query-resources",
+      "Rank": 1
     },
     {
       "Command": "pac solution add-license --planDefinitionFile ../ISV_Plan_Definition.csv --planMappingFile ../ISV_Plan_Mapping.csv",
@@ -888,6 +1668,66 @@
     },
     {
       "Command": "pac tool prt",
+      "Rank": 1
+    },
+    {
+      "Command": "pac tool xpp install",
+      "Rank": 1
+    },
+    {
+      "Command": "pac tool xpp uninstall",
+      "Rank": 1
+    },
+    {
+      "Command": "pac user-management apply-admin-role",
+      "Rank": 1
+    },
+    {
+      "Command": "pac workflows-agent delete-approval",
+      "Rank": 1
+    },
+    {
+      "Command": "pac workflows-agent delete-connection",
+      "Rank": 1
+    },
+    {
+      "Command": "pac workflows-agent delete-flow",
+      "Rank": 1
+    },
+    {
+      "Command": "pac workflows-agent delete-prompt",
+      "Rank": 1
+    },
+    {
+      "Command": "pac workflows-agent get-approvals",
+      "Rank": 1
+    },
+    {
+      "Command": "pac workflows-agent get-connections",
+      "Rank": 1
+    },
+    {
+      "Command": "pac workflows-agent get-flow-runs-non-singleton",
+      "Rank": 1
+    },
+    {
+      "Command": "pac workflows-agent get-flow-runs-singleton",
+      "Rank": 1
+    },
+    {
+      "Command": "pac workflows-agent get-flows",
+      "Rank": 1
+    },
+    {
+      "Command": "pac workflows-agent get-prompts",
+      "Rank": 1
+    },
+    {
+      "Command": "pac workflows-agent get-run-history-data",
+      "Rank": 1
+    },
+    {
+      "Command": "pac workflows-agent get-run-history-data-non-singleton",
       "Rank": 1
     }
   ]
