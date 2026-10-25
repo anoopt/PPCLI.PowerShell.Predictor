@@ -1,6 +1,6 @@
 {
   "FileName": "PowerPlatform.CLI.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "18 October 2026",
+  "LastUpdatedOn": "25 October 2026",
   "Suggestions": [
     {
       "Rank": 1,
@@ -316,6 +316,14 @@
     },
     {
       "Rank": 1,
+      "Command": "pac authorization search-environment-role-assignments"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac authorization search-role-assignments"
+    },
+    {
+      "Rank": 1,
       "Command": "pac canvas create --msapp HelloWorld.msapp --connector-display-name \"My Custom Connector\""
     },
     {
@@ -576,11 +584,23 @@
     },
     {
       "Rank": 1,
+      "Command": "pac copilot-studio download-licensing-report-file"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac copilot-studio generate-licensing-report"
+    },
+    {
+      "Rank": 1,
       "Command": "pac copilot-studio get-bot-quarantine-status"
     },
     {
       "Rank": 1,
       "Command": "pac copilot-studio get-connector-consent-bypass"
+    },
+    {
+      "Rank": 1,
+      "Command": "pac copilot-studio get-licensing-report-operation"
     },
     {
       "Rank": 1,
